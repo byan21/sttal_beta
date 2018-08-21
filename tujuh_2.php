@@ -34,7 +34,7 @@
 
         if (mysqli_query($conn, $sql)) {
             print "Tambah data berhasil ";
-            print "<a href= tiga_2.php>lihat data</a>";
+            print "<a href= tujuh_3.php>lihat data</a>";
         }else {
             print "Error: " . $sql . "<br>" . mysqli_error($conn);
         }
